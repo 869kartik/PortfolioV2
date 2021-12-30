@@ -23,11 +23,11 @@ const greeting = {
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/869kartik",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
+  linkedin: "https://www.linkedin.com/in/Kartikeya-kanani/",
   gmail: "hkanani191@gmail.com",
   gitlab: "https://gitlab.com/harikanani",
   facebook: "https://www.facebook.com/kartik.khatri1",
-  twitter: "https://twitter.com/Harikrushn9",
+  twitter: "https://twitter.com/Kartikeya9",
   instagram: "https://www.instagram.com/hari_kanani_/",
 };
 
@@ -519,7 +519,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+    link: "https://twitter.com/kartik869",
     avatar_image_path: "blogs_image.svg",
   },
 };
