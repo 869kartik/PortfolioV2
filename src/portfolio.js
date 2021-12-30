@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "harry.k()",
   nickname: "harry / picleric",
   full_name: "Kartikeya Khatri",
-  subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+  subTitle: "Software Development Manager🔥. Always learning.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
@@ -22,11 +22,11 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
+  github: "https://github.com/869kartik",
   linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
   gmail: "hkanani191@gmail.com",
   gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
+  facebook: "https://www.facebook.com/kartik.khatri1",
   twitter: "https://twitter.com/Harikrushn9",
   instagram: "https://www.instagram.com/hari_kanani_/",
 };
