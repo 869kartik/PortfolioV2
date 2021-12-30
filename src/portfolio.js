@@ -11,24 +11,23 @@ const settings = {
 const greeting = {
   title: "Hello 👋.",
   title2: "Kartikeya",
-  logo_name: "harry.k()",
-  nickname: "harry / picleric",
+  logo_name: "khatri.k()",
+  nickname: "kaka",
   full_name: "Kartikeya Khatri",
   subTitle: "Software Development Manager🔥. Always learning.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+  mail: "mailto:kartikkhatri01@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/869kartik",
-  linkedin: "https://www.linkedin.com/in/Kartikeya-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
+  linkedin: "https://www.linkedin.com/in/kartikeya-khatri-a299b214/",
+  gmail: "kartikkhatri01@gmail.com",
   facebook: "https://www.facebook.com/kartik.khatri1",
   twitter: "https://twitter.com/Kartikeya9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  instagram: "https://www.instagram.com/private_final_static/",
 };
 
 const skills = {
@@ -67,7 +66,7 @@ const skills = {
           },
         },
         {
-          skillName: "PHP",
+          skillName: "Java",
           fontAwesomeClassname: "simple-icons:php",
           style: {
             color: "#7377AD",
@@ -95,7 +94,7 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
+          skillName: "DynamoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#439743",
@@ -108,41 +107,7 @@ const skills = {
         //     color: "#DE33A6",
         //   },
         // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
+
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -157,13 +122,7 @@ const skills = {
             color: "#0865A6",
           },
         },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
+
         {
           skillName: "Apache",
           fontAwesomeClassname: "simple-icons:apache",
@@ -176,27 +135,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
           },
         },
       ],
@@ -395,7 +333,7 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
+          title: "Software Development Manager",
           company: "Valora Infotech",
           company_url: "https://valora-infotech.business.site/",
           logo_path: "valora.jpg",
