@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "khatri.k()",
   nickname: "kaka",
   full_name: "Kartikeya Khatri",
-  subTitle: "Software Development Manager🔥. Always learning.",
+  subTitle: "Software Development Manager at Amazon🔥.",
   resumeLink:
     "https://drive.google.com/file/d/1PA3Kq1xRcDCcFGPEB2n1wijmMB9Iu67m/view?usp=sharing",
   mail: "mailto:kartikkhatri01@gmail.com",
@@ -36,38 +36,59 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        `⚡ A passionate technology professional with a proven track record in building, architecting and delivering highly
+        reliable and scalable applications across diverse engineering domains such as internet/enterprise applications, voice,
+       e-commerce and financial systems. Highly adept in driving fast paced projects and implementing innovative solutions to
+       engineering problems at scale. Currently working as a Software Development Manager 3, Amazon Alexa, Bay Area`,
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Dynamo DB",
+          fontAwesomeClassname: "logos:aws-dynamodb",
           style: {
-            color: "#E34F26",
+            color: "black",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
           style: {
             color: "#1572B6",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "S3",
+          fontAwesomeClassname: "logos:aws-s3",
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
           },
         },
+
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:php",
+          skillName: "Elasticsearch",
+          fontAwesomeClassname: "logos:elasticsearch",
+          style: {
+            color: "#7377AD",
+          },
+        },
+        {
+          skillName: "SQS",
+          fontAwesomeClassname: "logos:aws-sqs",
+          style: {
+            color: "#7377AD",
+          },
+        },
+        {
+          skillName: "SNS",
+          fontAwesomeClassname: "logos:aws-sns",
+          style: {
+            color: "#7377AD",
+          },
+        },
+        {
+          skillName: "Cloudwatch",
+          fontAwesomeClassname: "logos:aws-cloudwatch",
           style: {
             color: "#7377AD",
           },
@@ -93,13 +114,6 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "DynamoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
         // {
         //   skillName: "GraphQL",
         //   fontAwesomeClassname: "simple-icons:graphql",
@@ -123,13 +137,6 @@ const skills = {
           },
         },
 
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -185,23 +192,9 @@ const skills = {
         },
         {
           skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          fontAwesomeClassname: "simple-icons:amazondynamodb",
           style: {
             color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
           },
         },
       ],
@@ -261,11 +254,11 @@ const experience = {
           title: "Software Development Manager",
           company: "Amazon",
           company_url: "https://amazon.com",
-          logo_path: "valora.jpg",
+          logo_path: "amazon.jpg",
           duration: "Aug 2016 - Present",
           location: "United States",
           description: `1) Leading team of 6 people and responsible for driving the strategic development of Atocha tool. Atocha
-          tool is being used by 700 services and handles 2.7 trillion requests per day.
+          tool is being used by 700 services and handles 2.7 trillion requests per day.\n
                         2) Be a key contributor to our success and drive the strategic development of the Amazon Atocha Tool that includes multiple web services and UI Components.
                         3) Design and build customer and business facing highly visible features for Atocha Tool.
                         4) Interact with business stakeholders and other technology teams while innovating software solutions and laying the software foundation for supporting many new business initiatives for years to come.
@@ -279,85 +272,24 @@ const experience = {
           title: "Software Development Engineer",
           company: "Snapdeal",
           company_url: "http://snapdeal.com/",
-          logo_path: "nightowls.jpg",
+          logo_path: "snapdeal.jpg",
           duration: "July 2015 - July 2016",
           location: "Gurgaon, India",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          description: `Worked on designing and building the financial system which was responsible for calculation the seller price, margin, shipping cost etc for the millions of items on Snapdeal.
+                        2) Built the new system called Duco from scratch which computed the storage cost of the seller items being stored in Snapdeal Warehouses.`,
           color: "#ee3c26",
         },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
-          description:
-            "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
+          title: "Application Developer",
+          company: "Oracle",
+          company_url: "http://oracle.com/",
+          logo_path: "oracle.png",
+          duration: "July 2012 - Dec 2014",
+          location: "Hyerabad, India",
+          description: `1) Design the appropriate model for the items, integrated with the existing one for the items of Sales and Operation Planning.
+                                   2) Introducing the additional feature of exporting the customized profile, other than the pre seeded one for Demand Planning.
+                                   3) Work closely with other engineers to develop the best technical design and approach for new product development.`,
+          color: "#ee3c26",
         },
       ],
     },
