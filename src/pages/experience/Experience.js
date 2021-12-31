@@ -33,7 +33,7 @@ function Experience(props) {
                 {experience["subtitle"]}
               </h3>
               <p
-                className="experience-header-detail-text subTitle"
+                className="experience-header-detail-text subTitle new-line"
                 style={{ color: theme.secondaryText }}
               >
                 {experience["description"]}

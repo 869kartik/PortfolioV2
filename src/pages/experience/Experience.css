@@ -1,3 +1,7 @@
+.new-line {
+  white-space: pre-line;
+}
+
 .experience-main {
   width: 100%;
 }
@@ -52,6 +56,7 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
+  white-space: pre-line;
 }
 
 @media (max-width: 1380px) {
