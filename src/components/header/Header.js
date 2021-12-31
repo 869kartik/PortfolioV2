@@ -111,17 +111,17 @@ function Header(props) {
                 Experience
               </NavLink>
             </li>
-            <li>
-              <NavLink
-                className="projects"
-                to="/projects"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Projects
-              </NavLink>
-            </li>
+            {/*<li>*/}
+            {/*<NavLink*/}
+            {/*className="projects"*/}
+            {/*to="/projects"*/}
+            {/*tag={Link}*/}
+            {/*activeStyle={{ fontWeight: "bold" }}*/}
+            {/*style={{ borderRadius: 5, color: theme.text }}*/}
+            {/*>*/}
+            {/*Projects*/}
+            {/*</NavLink>*/}
+            {/*</li>*/}
             <li>
               <NavLink
                 className="cr"
