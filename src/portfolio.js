@@ -28,7 +28,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/kartikeya-khatri-a299b214/",
   gmail: "kartikkhatri01@gmail.com",
   facebook: "https://www.facebook.com/kartik.khatri1",
-  twitter: "https://twitter.com/Kartikeya9",
+  twitter: "https://twitter.com/kartik869",
   instagram: "https://www.instagram.com/private_final_static/",
 };
 
