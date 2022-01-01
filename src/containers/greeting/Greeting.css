@@ -47,7 +47,10 @@
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
-
+.greeting-text-p-descrption {
+  font-size: 15px;
+  line-height: 20px;
+}
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;

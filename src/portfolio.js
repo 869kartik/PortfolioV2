@@ -11,10 +11,12 @@ const settings = {
 const greeting = {
   title: "Hello 👋.",
   title2: "Kartikeya",
-  logo_name: "khatri.k()",
+  logo_name: "Portfolio/Playground",
   nickname: "kaka",
   full_name: "Kartikeya Khatri",
-  subTitle: "Software Development Manager at Amazon🔥.",
+  subTitle: "Software Development Manager at Amazon🔥",
+  description:
+    "Welcome to my portfolio and to a place where I will share my experiences/learnings from trying out different tech, reading different books & blogs.",
   resumeLink:
     "https://drive.google.com/file/d/1PA3Kq1xRcDCcFGPEB2n1wijmMB9Iu67m/view?usp=sharing",
   mail: "mailto:kartikkhatri01@gmail.com",
