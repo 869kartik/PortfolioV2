@@ -11,7 +11,7 @@ const settings = {
 const greeting = {
   title: "Hello 👋.",
   title2: "Kartikeya",
-  logo_name: "Portfolio/Playground",
+  logo_name: "khatrik.k()",
   nickname: "kaka",
   full_name: "Kartikeya Khatri",
   subTitle: "Software Development Manager at Amazon🔥",
