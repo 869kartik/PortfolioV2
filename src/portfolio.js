@@ -42,7 +42,6 @@ const skills = {
         `,
         `⚡ Mentor new team members and junior engineers, help them learn tech stack and system design. 
         `,
-        ,
       ],
       softwareSkills: [
         {
@@ -260,9 +259,9 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Learning",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create Projects using Java, Cloud Technologies and React UI. Below are some of my projects.",
+    "Here are my different experiences/learnings from trying out different tech/books.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -283,7 +282,33 @@ const contactPageData = {
 };
 
 const projects = {
-  data: [],
+  books: [
+    {
+      title: "Books",
+      experiences: [
+        {
+          title: "NoSql For Dummies",
+          company: "Book to learn NoSql",
+          company_url: "https://amazon.com",
+          logo_path: "nosqldummy.png",
+          duration: "Aug 2021 - Jan 2022",
+          location: "United States",
+          description: `⚡ Its not a good book to learn NoSql from start.
+                     ⚡ It talks about consistency, maintenance and cluster management a lot.
+                     ⚡ It does talk about query and search functionality but it doesnt talk about it in detail which I believe is the first step to learn NoSql`,
+
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          color: "#0071C5",
+        },
+      ],
+    },
+  ],
+  blogs: [
+    {
+      title: "Blogs",
+      experiences: [],
+    },
+  ],
 };
 
 export {

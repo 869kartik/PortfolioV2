@@ -30,7 +30,6 @@ export default function ProjectCard({ repo, theme }) {
         <div
           {...styles}
           key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.projectCard }}
         >
           <div className="repo-name-div">
@@ -42,7 +41,8 @@ export default function ProjectCard({ repo, theme }) {
             {repo.description}
           </p>
           <div className="repo-details">
-            <ProjectLanguages logos={repo.languages} />
+            {/*<ProjectLanguages logos={repo.languages} />*/}
+            <img src={require(`../../assests/images/${repo.image}`)} />
           </div>
         </div>
       </Fade>

@@ -77,7 +77,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/projects"
+              path="/learning"
               render={(props) => (
                 <Projects
                   {...props}
