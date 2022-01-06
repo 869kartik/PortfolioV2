@@ -54,6 +54,12 @@ function Projects(props) {
         {/*})}*/}
       </div>
       <div className="repo-cards-div-main">
+        <ExperienceAccordion sections={projects["courses"]} theme={theme} />
+        {/*{projects.data.map((repo) => {*/}
+        {/*return <ProjectCard repo={repo} theme={theme} />;*/}
+        {/*})}*/}
+      </div>
+      <div className="repo-cards-div-main">
         <ExperienceAccordion sections={projects["blogs"]} theme={theme} />
         {/*{projects.data.map((repo) => {*/}
         {/*return <ProjectCard repo={repo} theme={theme} />;*/}

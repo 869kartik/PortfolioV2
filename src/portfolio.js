@@ -309,6 +309,28 @@ const projects = {
       experiences: [],
     },
   ],
+  courses: [
+    {
+      title: "Courses",
+      experiences: [
+        {
+          title: "Become a Node.js Developer",
+          company: "Certificate",
+          company_url:
+            "https://drive.google.com/file/d/1xwqwonZ5FYTmANqXyKKpwxBTXZQSidD_/view?usp=sharing",
+          logo_path: "certificate.png",
+          duration: "Jan 2022",
+          location: "United States",
+          description: `⚡ Learn the fundamentals of JavaScript programming.
+                     ⚡ Master in using Node.js APIs.
+                     ⚡ Get familiarity with the inner working and basics of Node.js`,
+
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          color: "#0071C5",
+        },
+      ],
+    },
+  ],
 };
 
 export {
