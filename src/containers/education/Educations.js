@@ -8,20 +8,9 @@ function Educations(props) {
   const theme = props.theme;
 
   return (
-    <div className="main" id="educations">
-      <div className="educations-header-div">
-        <Fade bottom duration={2000} distance="20px">
-          <h1 className="educations-header" style={{ color: theme.text }}>
-            Degrees Received 1
-          </h1>
-        </Fade>
-      </div>
-      <div className="educations-body-div">
-        {degrees.degrees.map((degree) => {
-          return <DegreeCard degree={degree} theme={theme} />;
-        })}
-      </div>
-    </div>
+    <div className="main" id="chatgpt">
+            <iframe src="https://chatgpt.com" style={{width: "100%", height: "100%"}}></iframe>
+        </div>
   );
 }
 
